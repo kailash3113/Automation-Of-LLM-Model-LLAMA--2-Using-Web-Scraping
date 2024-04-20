@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Model Generator</title>
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <!-- Include external JavaScript file -->
+    <script src="static/js/js.js" defer></script>
+</head>
+
+<body>
+<form action="" method=POST>
+<div class="container">
+    <span class="title">LLM Model Generator</span>
+    <input type="text" id="box" placeholder="Enter Website URL" name="box">
+    <button onclick="processUrl()" >Generate</button>
+</form> 
+    
+</div>
+    <!-- Stylish text box for entering a URL -->
+    
+    <script>        
+        function processUrl() { 
+            var value = document.querySelector('#box').value; 
+             
+        }
+    </script>
+
+</body>
+
+</html>
+
 
