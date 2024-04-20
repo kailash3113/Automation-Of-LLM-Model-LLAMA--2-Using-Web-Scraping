@@ -1,1 +1,64 @@
+body {
+    font-family: 'Alatsi', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background: black;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .title {
+    position: relative;
+    bottom: 150px;
+    text-align: center;
+    font-size: 7vw;
+    color: rgb(225,225,225);
+    right: 300px;
+  }
 
+  canvas {
+    width: 100%;
+  }
+
+  input {
+    width: 40%;
+    padding: 10px;
+    margin: 5px -550px; /* Center the text box horizontally */
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    right: 650px;
+}
+
+button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    margin: 10px -80px; /* Center the button horizontally */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+.urlInput{
+  position: relative;
+  bottom: 200px;
+}
